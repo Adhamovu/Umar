@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: blue;
+}
+.box{
+    width: 1200px;
+    height: 614px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+.top, .bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    padding: 25px;
+    background-color: red;
+    width: 113px;
+}
